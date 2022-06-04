@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Memory Game By Diana</title>
+    <link rel="stylesheet" href="csspart.css">
+</head>
+<body>
+<table>
+        <thead>
+    <section class="memory-game">
+        <div class="cards" data-framework="game6"> 
+            <img class="front_side" src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" alt="CPP"/>
+            <img class="back_side" src="https://cdn-icons-png.flaticon.com/512/2621/2621040.png" alt="game picture"/>
+        </div>
+        <div class="cards" data-framework="game6">
+            <img class="front_side" src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" alt="CPP"/>
+            <img class="back_side" src="https://cdn-icons-png.flaticon.com/512/2621/2621040.png" alt="game picture"/>
+        </div> 
+
+        <div class="cards" data-framework="game1">
+            <img class="front_side" src="https://mechomotive.com/wp-content/uploads/2021/09/python-logo-png-200.png" alt="python"/>
+            <img class="back_side" src="https://cdn-icons-png.flaticon.com/512/2621/2621040.png" alt="game picture/">
+        </div>
+        <div class="cards" data-framework="game1">
+            <img class="front_side" src="https://mechomotive.com/wp-content/uploads/2021/09/python-logo-png-200.png" alt="python"/>
+            <img class="back_side" src="https://cdn-icons-png.flaticon.com/512/2621/2621040.png" alt="game picture"/>
+        </div>
+
+        <div class="cards" data-framework="game2">
+            <img class="front_side" src="https://iconape.com/wp-content/png_logo_vector/android-icon-logo.png" alt="android"/>
+            <img class="back_side" src="https://cdn-icons-png.flaticon.com/512/2621/2621040.png" alt="game picture"/>
+        </div>
+        <div class="cards" data-framework="game2">
+            <img class="front_side" src="https://iconape.com/wp-content/png_logo_vector/android-icon-logo.png" alt="android"/>
+            <img class="back_side" src="https://cdn-icons-png.flaticon.com/512/2621/2621040.png" alt="game picture"/>
+        </div>
+
+        <div class="cards" data-framework="game3">
+            <img class="front_side" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/512px-Unofficial_JavaScript_logo_2.svg.png?20141107110902" alt="js"/>
+            <img class="back_side" src="https://cdn-icons-png.flaticon.com/512/2621/2621040.png" alt="game picture"/>
+        </div>
+        <div class="cards" data-framework="game3">
+            <img class="front_side" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/512px-Unofficial_JavaScript_logo_2.svg.png?20141107110902" alt="js"/>
+            <img class="back_side" src="https://cdn-icons-png.flaticon.com/512/2621/2621040.png" alt="game picture"/>
+        </div>
+
+        <div class="cards" data-framework="game4">
+            <img class="front_side" src="https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg" alt="ruby"/>
+            <img class="back_side" src="https://cdn-icons-png.flaticon.com/512/2621/2621040.png" alt="game picture"/>
+        </div>
+        <div class="cards" data-framework="game4">
+            <img class="front_side" src="https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg" alt="ruby"/>
+            <img class="back_side" src="https://cdn-icons-png.flaticon.com/512/2621/2621040.png" alt="game picture">
+        </div>
+
+        <div class="cards" data-framework="game5">
+            <img class="front_side" src="https://seeklogo.com/images/J/java-logo-7F8B35BAB3-seeklogo.com.png" alt="java"/>
+            <img class="back_side" src="https://cdn-icons-png.flaticon.com/512/2621/2621040.png" alt="game picture"/>
+        </div>
+        <div class="cards" data-framework="game5">
+            <img class="front_side" src="https://seeklogo.com/images/J/java-logo-7F8B35BAB3-seeklogo.com.png" alt="java"/>
+            <img class="back_side" src="https://cdn-icons-png.flaticon.com/512/2621/2621040.png" alt="game picture"/>
+        </div>
+
+        <div class="cards" data-framework="game7">
+            <img class="front_side" src="https://upload.wikimedia.org/wikipedia/commons/0/06/Kotlin_Icon.svg" alt="kotlin"/>
+            <img class="back_side" src="https://cdn-icons-png.flaticon.com/512/2621/2621040.png" alt="game picture"/>
+        </div>
+        <div class="cards" data-framework="game7">
+            <img class="front_side" src="https://upload.wikimedia.org/wikipedia/commons/0/06/Kotlin_Icon.svg" alt="kotlin"/>
+            <img class="back_side" src="https://cdn-icons-png.flaticon.com/512/2621/2621040.png" alt="game picture"/>
+        </div>
+
+        <div class="cards" data-framework="game8">
+            <img class="front_side" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/600px-Octicons-mark-github.svg.png?20180806170715" alt="github"/>
+            <img class="back_side" src="https://cdn-icons-png.flaticon.com/512/2621/2621040.png" alt="game picture"/>
+        </div>
+        <div class="cards" data-framework="game8">
+            <img class="front_side" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/600px-Octicons-mark-github.svg.png?20180806170715" alt="github"/>
+            <img class="back_side" src="https://cdn-icons-png.flaticon.com/512/2621/2621040.png" alt="game picture"/>
+        </div>
+
+    </section>
+    <br />
+    <br />
+
+<div class="form">
+    <form onsubmit="return validate()" method="post">
+    <table>
+        <thead>
+            <caption><p class="serif"><big>In this table you can enter the names of the logos that you know</big></p></caption>            
+            <tr>
+                <strong>
+                    <th><p class="serif"> <big>Logo</big></p></th>
+                    <th><p class="serif"> <big>Name</big></p></th>
+                </strong>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th><img class="logo" src="https://mechomotive.com/wp-content/uploads/2021/09/python-logo-png-200.png" alt="python"/></th>
+                <th> <input placeholder="   Input here" type="text" name="py" id="py"/></th>
+            </tr>
+                
+            <tr>
+                <th><img class="logo" src="https://iconape.com/wp-content/png_logo_vector/android-icon-logo.png" alt="android"/></th>
+                <th> <input class="name" placeholder="   Input here" type="text" name="andr" id="andr"/></th>
+            </tr>
+                
+            <tr>
+                <th><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/512px-Unofficial_JavaScript_logo_2.svg.png?20141107110902" alt="js"/></th>
+                <th> <input placeholder="   Input here" type="text"  name="js" id="js"/></th>
+            </tr>
+
+            <tr>
+                <th><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg" alt="ruby"/></th>
+                <th> <input placeholder="   Input here" type="text" name="ruby" id="ruby"/></th>
+            </tr>
+            
+            <tr>
+                <th><img class="logo" src="https://seeklogo.com/images/J/java-logo-7F8B35BAB3-seeklogo.com.png" alt="java"/></th>
+                <th> <input placeholder="   Input here" type="text" name="java" id="java"/></th>
+            </tr>
+            
+            <tr>
+                <th><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" alt="CPP"/></th>
+                <th> <input placeholder="   Input here" type="text" name="cpp" id="cpp"/></th>
+            </tr>
+            
+            <tr>
+                <th><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/0/06/Kotlin_Icon.svg" alt="kotlin"/></th>
+                <th> <input placeholder="   Input here" type="text" name="kt" id="kt"/></th>
+            </tr>
+            
+            <tr>
+                <th><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/600px-Octicons-mark-github.svg.png?20180806170715" alt="github"/></th>
+                <th> <input placeholder="   Input here" type="text" name="git" id="git"/></th> 
+            </tr>
+        </tbody>
+    </table>
+    <input type="submit" value="Submit" id="sub" />
+    </form>
+    </div>
+
+	<script src="jspart.js"></script>
+</body>
+</html>
